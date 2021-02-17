@@ -91,15 +91,7 @@ def generate_all_product_xml(xml_list): # This function take xml of single produ
 ###########################################
     
 if __name__ == "__main__":
-    ### Enter the data 
-    vendor_id = str(input("Enter the vendor id: "))
-    group_id = str(input("Enter the group id: "))
-    SubGroup_id = str(input("Enter the sub_group id: "))
-    
-    
-    ### AFTER ENTRING THE WILL BE YOUR FINAL URL
-    final_url = "http://api.polycomp.bg/service/data/v1/products/test/"+vendor_id+"/"+group_id+"/"+SubGroup_id
-    
+    final_url = "Enter URL HERE"
     #Request Data of products in one file from where we gonna get product ids for furhter use
     products_total_xml = get_final_xml_file(final_url)
     
